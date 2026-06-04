@@ -1,4 +1,8 @@
-# Deterministic Regularization via Centered Kernel Alignment in RF-DETR
+# Deterministic Regularization via Centered Kernel Alignment in RF-DETR 
+
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FETAACT69135.2026.11541456-blue)](https://doi.org/10.1109/ETAACT69135.2026.11541456)
+[![IEEE](https://img.shields.io/badge/IEEE-ETAACT--2026-orange)](https://doi.org/10.1109/ETAACT69135.2026.11541456)
+> Manav Madan, Ruturaj Shelake, Christoph Reich — IEEE ETAACT-2026
 
 This repository contains the official implementation of **Deterministic Regularization via Centered Kernel Alignment (CKA)** for the **RF-DETR** object detection model. This work introduces a parameter-free, self-supervised regularization term that improves the detection of small and partially occluded objects by enforcing representational consistency across different augmented views of the same image.
 
@@ -246,14 +250,19 @@ print("✓ Patch active" if "backbone_features" in source else "✗ Patch NOT fo
 
 This is the same check run automatically in **Cell 2** of every notebook.
 
-##  Citation
+## 📄 Citation
+
 If you find this work useful for your research, please cite:
+
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FETAACT69135.2026.11541456-blue)](https://doi.org/10.1109/ETAACT69135.2026.11541456)
+
 ```bibtex
 @inproceedings{madan2026deterministic,
   title={Deterministic Regularization via Centered Kernel Alignment in RF-DETR},
   author={Madan, Manav and Shelake, Ruturaj and Reich, Christoph},
   booktitle={IEEE ETAACT-2026},
-  year={2026}
+  year={2026},
+  doi={10.1109/ETAACT69135.2026.11541456}
 }
 ```
 
